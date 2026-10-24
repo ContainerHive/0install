@@ -6,7 +6,7 @@ Signed [0install](https://0install.net) feed for the `ch` CLI of
 ## Install
 
 ```sh
-0install add ch https://containerhive.github.io/0install/containerhive.xml
+0install add ch https://0install.container-hive.timo-reymann.de/containerhive.xml
 0install run ch
 ```
 

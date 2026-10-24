@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<interface uri="https://containerhive.github.io/0install/containerhive.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface https://docs.0install.net/specifications/feed.xsd">
+  <name>ContainerHive</name>
+  <summary>command line tool for managing container image builds with dependency resolution</summary>
+  <description>ContainerHive resolves the dependency graph between container images and builds them in the right order. It generates CI pipelines, runs structure tests, and produces SBOMs for the built images.</description>
+  <homepage>https://container-hive.timo-reymann.de</homepage>
+  <category>Development</category>
+  <icon href="https://containerhive.github.io/0install/containerhive.png" type="image/png"/>
+  <feed-for interface="https://containerhive.github.io/0install/containerhive.xml"/>
+  <entry-point binary-name="ch" command="run"/>
+  <group>
+    <command name="run" path="ch"/>
+    <implementation arch="Linux-x86_64" id="sha1new=14ec22b4179df621d265eec5beabd63cadcf6236" released="2026-10-24" version="1.15.0">
+      <manifest-digest sha256new="H2TSPQQN6AKR7BYLSSVFYXJLIM7WWBMN7RSNVUHLGBEV6Z5ZKKWA"/>
+      <archive href="https://github.com/ContainerHive/ContainerHive/releases/download/v1.15.0/linux-amd64.tar.zst" size="77550440" type="application/x-zstd-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-aarch64" id="sha1new=6285ffc6e23d44265877fd94110739e26b2e3c01" released="2026-10-24" version="1.15.0">
+      <manifest-digest sha256new="V265XMPMXPRNOV5XI2WJBQEEA6SQ7YJ2R6BJLXNDJN3UJ3JY5DDA"/>
+      <archive href="https://github.com/ContainerHive/ContainerHive/releases/download/v1.15.0/linux-arm64.tar.zst" size="73568262" type="application/x-zstd-compressed-tar"/>
+    </implementation>
+    <implementation arch="MacOSX-x86_64" id="sha1new=f6267e3b07b04e289e3e99b50f80342341caefe5" released="2026-10-24" version="1.15.0">
+      <manifest-digest sha256new="RVG5JEJDNT6FSBTHIJJYTA2GOVL5CAKNTIE6N4Q2QPKIZ7IFVK7A"/>
+      <archive href="https://github.com/ContainerHive/ContainerHive/releases/download/v1.15.0/darwin-amd64.tar.zst" size="81735120" type="application/x-zstd-compressed-tar"/>
+    </implementation>
+    <implementation arch="MacOSX-aarch64" id="sha1new=bb8a1d56409ba39e6dcf18fe6079f11c418403e1" released="2026-10-24" version="1.15.0">
+      <manifest-digest sha256new="FADHWGJ3O3BVKIRZWF35BYYXRTL6WQPCLK6ZLEVS7CCVTZTWP6XA"/>
+      <archive href="https://github.com/ContainerHive/ContainerHive/releases/download/v1.15.0/darwin-arm64.tar.zst" size="77933866" type="application/x-zstd-compressed-tar"/>
+    </implementation>
+  </group>
+</interface>
+<!-- Base64 Signature
+iQGzBAABCgAdFiEEHeQ6gS6D5IhtMl/Tp0QF1h7n48cFAmrdM/MACgkQp0QF1h7n
+48dumQv/fWk6M2B9h1/gWh2Kn6Zp+Nis51LEssx6IE+AEQmPensU4YgSjkTRBW4D
+hMsE99QvvjmNMH1zhc7Y6rJOeCSoKbhpseCoglxRJlkAW1Qp2esUtCwG+s/tz48J
+vKrrdkG+LwAj6OVCZ9aRe1mj/1tbJUhCPjCiCtMyf2BoJgz4vjU+u3R9QfZaaNam
++TpOd6exUDLkZtPUTXeTK5Pplwahg/t16F3SG05sEk8OWAoSmalEn2+lZ2mlyS6W
+4kbLHwUP/BPs21WlIBYc6UfoK1d7Pyqg9Ryrg/H9bvqfKfEueZuhmc9/HM+2+EgE
+AjTox4X6AavQ/+lNUm14RRHeZefc3WkaelugLvd1n6L+qqfl8ZNmayi5K82o2Psx
+a3IDPnLQjmbBaP7/RyJzRYUzZI1nnnz4wVZI0sXxTA0/A9KQrAmo7/9fgJMxm0FU
+ne6cT7f28VTq+TTqNl0CAlEPLzlX5fGhI5FgTu9nRZAOUWpxc7QqeEul14twMdqD
+kWl6HPCI
+-->

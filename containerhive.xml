@@ -330,17 +330,33 @@
       <manifest-digest sha256new="2NCIFQDUB3V4LOFJBLROQO6WREHA5HQCUFIDJMHK2CLCZSDBPHDQ"/>
       <archive href="https://github.com/ContainerHive/ContainerHive/releases/download/v1.26.0/darwin-arm64.tar.zst" size="78034148" type="application/x-zstd-compressed-tar"/>
     </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=f4d30d84284dde1623326ba3fc78f7d936e92910" released="2026-10-30" version="1.27.0">
+      <manifest-digest sha256new="WMBTX2FSNU76UVNE22AVWCAWCBQOHFGQYI6XOUZHOB5H3FLTD7CQ"/>
+      <archive href="https://github.com/ContainerHive/ContainerHive/releases/download/v1.27.0/linux-amd64.tar.zst" size="77732799" type="application/x-zstd-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-aarch64" id="sha1new=7a7acd936c18d85c4b45e2f155d3895f3538d2f3" released="2026-10-30" version="1.27.0">
+      <manifest-digest sha256new="MUVUTHFUMVCKO6TAU4QPW765F5HVHVCFTN44OWSM33OTKUDWUOLA"/>
+      <archive href="https://github.com/ContainerHive/ContainerHive/releases/download/v1.27.0/linux-arm64.tar.zst" size="73731606" type="application/x-zstd-compressed-tar"/>
+    </implementation>
+    <implementation arch="MacOSX-x86_64" id="sha1new=fa783c323a580ee370f77692d84dfffd9a167aeb" released="2026-10-30" version="1.27.0">
+      <manifest-digest sha256new="6IUWTR6PINIWXWVVBJK67YFWOWVADBCOG6SABAPI34HSLOUMRIKQ"/>
+      <archive href="https://github.com/ContainerHive/ContainerHive/releases/download/v1.27.0/darwin-amd64.tar.zst" size="81883163" type="application/x-zstd-compressed-tar"/>
+    </implementation>
+    <implementation arch="MacOSX-aarch64" id="sha1new=fb2967797367e998e5686575d5a060efcddcc72d" released="2026-10-30" version="1.27.0">
+      <manifest-digest sha256new="SS2W3KOPDMZK63GZFOOM7T6XIEEXT5343PZUEN2RYGBOETF4CUEA"/>
+      <archive href="https://github.com/ContainerHive/ContainerHive/releases/download/v1.27.0/darwin-arm64.tar.zst" size="78058513" type="application/x-zstd-compressed-tar"/>
+    </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iQGzBAABCgAdFiEEHeQ6gS6D5IhtMl/Tp0QF1h7n48cFAmrjN0QACgkQp0QF1h7n
-48dEKgv7BXMJCGxXRMaO2fDfO+nJva9Ii0Y8TOC+2h8SszWYiy67GLRf4S/NZnMc
-W2uxnFbTIz9Fh49HDetkKA0xCagPaHGPXgwiyh+JX0jkr9GUQyLIbsKzwxfDnNeV
-OPDRNXQB5WkaxrmI7n1SoWpRjdXWPrfCqG1TCu1TzuJTk8XCOK0kbrwQV8NFjLZ2
-+hpt588LVZv95cX8lgWdhJNCg1xrotMluNAaipVRjq/C0hRc4ESUasOMXEEhJLvv
-cyhGcbnclKHxJSa7s87TkVh1+GnxziNFdOJc+N4D+lbHNfPfusmuX3oR48EE0dxx
-k5sMQNqBlg79M3raIi6mqqBPImacytb9qc+fzpOc0rIZ5aWyxaD8IYDOFaBZoeA3
-NnVJPHE1/mFmbMCWTfchHlBzF9/CaNzEDj/b+KQw48mQBvgK9pN/xyOM1fIyIBc+
-o4JbI8ZxF7uAW7YmdBAnPuqLIdZICOrZo9L7SuQMzjB4ZfvsVWbZEGmbSIfA5YAo
-PHYSDu0t
+iQGzBAABCgAdFiEEHeQ6gS6D5IhtMl/Tp0QF1h7n48cFAmrkZzkACgkQp0QF1h7n
+48dEHAv+IoFnJhAhhghy9m4sV9Ou9xEOG+w2qG8gAjEGk26suV0to9giaN4kH1pg
+27iAH1+tq1ZolH5WGw7u7W85JPdC+O/GfSn6Ea5iJudlVzYHyzStHxQOOdqyk7Z1
++KSDizrlZT7DjcR8vFT9up8sPs8xz1YXpMqnzVDTDPYVxswYByPSnMFBhu9+anTf
+v0aZyGrE7QHzOXZRoOzuaRKI7kCIFnFXrry5aXPWwvE+neWZ1HDPIz/1DtCRuT8E
+StXGJoDuBlMhBjPoxxwicRsP4WUGQyqDE3XXt8wIx+D8zd6NRntbX3p2tGGVM6u6
+81B4BrXdpTJ4SP+VQkyTqE0XHEb9vpoP40k5aN5t77Qg1UhKba3pikuioFoW7CPp
+XrkM8HEZRUsJGRdAkAY9Y5cwC0Y4rXYZEd92K6XzCNXSmL+iPX08B5LO/eQC++bM
+Pf5+xudm6rqvg+lpFjl6aQ80PIQYCO14l/IAUwf6/UCzWWGTF0DEq9oy8qeLyT4Q
+G55ngYeo
 -->

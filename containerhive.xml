@@ -458,17 +458,33 @@
       <manifest-digest sha256new="R6F4FE2Y4OCHQIOJ4XWCYHORDK5ZG6YHRGW7JNAMABW5BJGY54EQ"/>
       <archive href="https://github.com/ContainerHive/ContainerHive/releases/download/v1.27.7/darwin-arm64.tar.zst" size="83212676" type="application/x-zstd-compressed-tar"/>
     </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=6db9aaf3f98eb1eb5523d5f48d88c9afa855123a" released="2026-11-24" version="2.0.0">
+      <manifest-digest sha256new="TMAEKHAVBRFZOG6EDYZOCBIXVUKODJDIJXXGYKQSRAD25XX446NQ"/>
+      <archive href="https://github.com/ContainerHive/ContainerHive/releases/download/v2.0.0/linux-amd64.tar.zst" size="83212822" type="application/x-zstd-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-aarch64" id="sha1new=a34bf7a3eb63cde5124f4c658e99fb2b43c7e92e" released="2026-11-24" version="2.0.0">
+      <manifest-digest sha256new="G435SHEFWIRAYEEUZMV554FTMJ5BMHZFZAPRN4DUTSIKLPUC3PBA"/>
+      <archive href="https://github.com/ContainerHive/ContainerHive/releases/download/v2.0.0/linux-arm64.tar.zst" size="78718734" type="application/x-zstd-compressed-tar"/>
+    </implementation>
+    <implementation arch="MacOSX-x86_64" id="sha1new=0dc5af0ae882a28b5ead89cffda9adb7ab0d4efd" released="2026-11-24" version="2.0.0">
+      <manifest-digest sha256new="ODNEEZYXTJOGY7QCKFUOLTVCLKUQBYQ5HK4FUDR6UROBPM7OLYRQ"/>
+      <archive href="https://github.com/ContainerHive/ContainerHive/releases/download/v2.0.0/darwin-amd64.tar.zst" size="87029603" type="application/x-zstd-compressed-tar"/>
+    </implementation>
+    <implementation arch="MacOSX-aarch64" id="sha1new=ab62b5050131bda2418c81ee741bfca31a0f6cc7" released="2026-11-24" version="2.0.0">
+      <manifest-digest sha256new="M6RDHVB6RUVYUQDYHUMKRTTN5E5ZBWI5L3W7NB5YLVCR4TRPMRIA"/>
+      <archive href="https://github.com/ContainerHive/ContainerHive/releases/download/v2.0.0/darwin-arm64.tar.zst" size="83194584" type="application/x-zstd-compressed-tar"/>
+    </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iQGzBAABCgAdFiEEHeQ6gS6D5IhtMl/Tp0QF1h7n48cFAmsFQWYACgkQp0QF1h7n
-48e8wAv/Tctxg5An1CO3I4P+Qo6IgFhTelWOT9nqi7mOxB50fCMEvryiIbc2/E/1
-1rxWDcvhq97vkKOJwZdr2v7VRLWrCByPJaDCrS3p43Vt7Y1i2Wlzfp0JpR0C7Qpd
-XvwLPMCWpkFf3nSi0i4zCDxD5um847AX3UUbzNUqgcfKVmctlNM2jBjOaY6mq8Xd
-RvBguXvt9EqEU+Il89VfUEs0bmXj6yoesOnGTlCKEsuIRhB2Q8KD5/avJYcVcMn7
-1gLEC6sR0j4OlFL7cdX8pjr2cC/C0ESNQ56TUl3dbNTmP+0a5/eHrSdlf4smC7MF
-AMfcasB6IoIOSs35odO0eJBIGAOrV8b/tgqiN/oxt6609hCAkZZTOQ7oU9OylY9U
-T5HecJ59dhRe4bXrsFDGS8uFcLrjwdOz8ms6tFjpKLjQdY/SK3YTt5j0vyhzHxGa
-PX/n7pR4ggq4GNR7mniJZXI9lJbO3Or0RadEa9DQUkUk9MsFwkte/P4iDmcrAbiD
-ry88PJws
+iQGzBAABCgAdFiEEHeQ6gS6D5IhtMl/Tp0QF1h7n48cFAmsFS5wACgkQp0QF1h7n
+48d5SAv/R7F06BDdICwMEKZuLruy8pL8r/iVQBEp96UDTq7xI5WSsZUKh2Q45rGL
+mLPNzTSZ8wOkQO5rBEDUSqb+NqJNjdtiBII4MPCG9HWl7Lx1mDbVS/2JMMixcO4c
+H+2VwaN4hQ+vAzHkJGK4boqj5jVLeKBPySwrEprcpBfVgSZRKpvluaJpzVZZtirw
+1FMBk3AKUstwCt2qMHpR8tFA8R/4nP9Gx5Ln1WAo6OnZ0O+qt8pwWeDwrPlhSQyc
+Iz9OeK9esCO2TYhcwbSVCAm8PBYKDrczZNgNsphSLjRVLVeF0yKvkO8HUnCZzIuf
+VKYcNaqjykX070+xR6p8cC+2g3xDVkeYVO65lXnr6pixvv25aMiDkAGztGxR1m6t
+uoGDRbP6bmw/QHUiZOq4d7D4PEFmDtfsf1JdVZO48GpvBGkdzGbi4QqC4RKlly3+
+RNt8y44wzc97zd8qJJW70WXidvIP5hRIMSrwwV/oNkEamzVN5x+vwrw4JeRbZPC+
+sqtY0DON
 -->

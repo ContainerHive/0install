@@ -474,17 +474,33 @@
       <manifest-digest sha256new="M6RDHVB6RUVYUQDYHUMKRTTN5E5ZBWI5L3W7NB5YLVCR4TRPMRIA"/>
       <archive href="https://github.com/ContainerHive/ContainerHive/releases/download/v2.0.0/darwin-arm64.tar.zst" size="83194584" type="application/x-zstd-compressed-tar"/>
     </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=c4c2e2c7c6c427e60170118bee80f33b376c4ba0" released="2026-11-24" version="2.0.1">
+      <manifest-digest sha256new="Y675KTGRVS75SZR5K77OBILDJLPTR2DF7IEHFX2XJ7Z5DTEXST4Q"/>
+      <archive href="https://github.com/ContainerHive/ContainerHive/releases/download/v2.0.1/linux-amd64.tar.zst" size="83648104" type="application/x-zstd-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-aarch64" id="sha1new=52704d674e1936883e98fb0fb0aab16fb80bbd59" released="2026-11-24" version="2.0.1">
+      <manifest-digest sha256new="GD57O6OGUBTNC7GPBILMDPYYXJ4T4UR5EDMVQLRALXYG746PH5IA"/>
+      <archive href="https://github.com/ContainerHive/ContainerHive/releases/download/v2.0.1/linux-arm64.tar.zst" size="79062102" type="application/x-zstd-compressed-tar"/>
+    </implementation>
+    <implementation arch="MacOSX-x86_64" id="sha1new=87204e55a5b0cb0957276d3ddba229525a5cab5c" released="2026-11-24" version="2.0.1">
+      <manifest-digest sha256new="G2NEJUUAORHY4M6NZNQDPV5VA5IYEBOXYKRT7D6RTNWGBH4WIX2A"/>
+      <archive href="https://github.com/ContainerHive/ContainerHive/releases/download/v2.0.1/darwin-amd64.tar.zst" size="87471050" type="application/x-zstd-compressed-tar"/>
+    </implementation>
+    <implementation arch="MacOSX-aarch64" id="sha1new=409e14c5dfbe183535fcf1d0c0eeafc8a58c6412" released="2026-11-24" version="2.0.1">
+      <manifest-digest sha256new="IOYU72BPVPK7X7RAVDWACAXPGDD5JZVZRZNIROGSQZSEJYHX4KAA"/>
+      <archive href="https://github.com/ContainerHive/ContainerHive/releases/download/v2.0.1/darwin-arm64.tar.zst" size="83631018" type="application/x-zstd-compressed-tar"/>
+    </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iQGzBAABCgAdFiEEHeQ6gS6D5IhtMl/Tp0QF1h7n48cFAmsFS5wACgkQp0QF1h7n
-48d5SAv/R7F06BDdICwMEKZuLruy8pL8r/iVQBEp96UDTq7xI5WSsZUKh2Q45rGL
-mLPNzTSZ8wOkQO5rBEDUSqb+NqJNjdtiBII4MPCG9HWl7Lx1mDbVS/2JMMixcO4c
-H+2VwaN4hQ+vAzHkJGK4boqj5jVLeKBPySwrEprcpBfVgSZRKpvluaJpzVZZtirw
-1FMBk3AKUstwCt2qMHpR8tFA8R/4nP9Gx5Ln1WAo6OnZ0O+qt8pwWeDwrPlhSQyc
-Iz9OeK9esCO2TYhcwbSVCAm8PBYKDrczZNgNsphSLjRVLVeF0yKvkO8HUnCZzIuf
-VKYcNaqjykX070+xR6p8cC+2g3xDVkeYVO65lXnr6pixvv25aMiDkAGztGxR1m6t
-uoGDRbP6bmw/QHUiZOq4d7D4PEFmDtfsf1JdVZO48GpvBGkdzGbi4QqC4RKlly3+
-RNt8y44wzc97zd8qJJW70WXidvIP5hRIMSrwwV/oNkEamzVN5x+vwrw4JeRbZPC+
-sqtY0DON
+iQGzBAABCgAdFiEEHeQ6gS6D5IhtMl/Tp0QF1h7n48cFAmsFUgEACgkQp0QF1h7n
+48cGzAwAg4wyWceh4YPP9ffc8QP9qNRpWTKBo+/RDDBc1k4j8EhH1kElkbW7Bgq/
+csDnFKsk2S0Gnkv+gVi2QpUe0Mp6yUviUageNSRWI7HxrlEvDOVg72UOqeBHDIEd
+H6mExO21DjpPdJdtWVZkSBQSvIPYRhT7Sur62r0+DB4s5TnXI3NVlQCc2jJnxvHi
+shM/ywBMepHUw2RHYcYpgs1ufObeBNJWZDYRxx/uoAxLGg+rqGD9v19x3g2iMOts
+B9DF8PPmGQQe0AyzzoysJ0n+/Ndc1izwOF+XKcjeVKtnS+c9zl8wdCtzN7M6iwSE
+gvgO+ugMzyTkcIuCYlSflvkBJymMHR6JcwYzah60Pl3W0Y0YLlFl/7ILT0GNdr5W
+r0CxPJJaMZN0txLcw707sYo9X54dWNO5uwCWY965w2p33VgMYQTwa88QtLQEEVgG
+5IbMFRZ8VxFblqdh37W5tz77oXNWTlhogYPvyBmv3YZNjCFOEO6r/gJrA6AHA5cS
+A3AL90ZU
 -->
